@@ -95,8 +95,8 @@ Ditto is published under license GPL3.
 
 ## 翻訳メモ
 - 言語ファイルの、開発者による変更を追うには [Englishe.xml](https://github.com/sabrogden/Ditto/blob/master/Debug/Language/English.xml) のHistory。
-- ないリソースの指定番号は、[Resource.h](https://github.com/sabrogden/Ditto/blob/master/Resource.h) で文字列を検索。その文字列に当てられた変数名（大文字）を、[CP_Main.rc](
-https://github.com/sabrogden/Ditto/blob/master/CP_Main.rc) 検索し、その割り当ての番号を使ってみる。
+- ないリソースの指定番号は、[CP_Main.rc](
+https://github.com/sabrogden/Ditto/blob/master/CP_Main.rc) で文字列を検索。その文字列に当てられた変数名（大文字）を、[Resource.h](https://github.com/sabrogden/Ditto/blob/master/Resource.h) 検索し、その割り当ての番号を使ってみる。
 - 親のタグは [MultiLanguage.cpp](https://github.com/sabrogden/Ditto/blob/master/MultiLanguage.cpp) に書いてある。
 
 ### Waiting for multilingualization
